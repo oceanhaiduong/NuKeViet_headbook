@@ -1,0 +1,176 @@
+[Wed, 07 Dec 2022 10:03:39 +0700] [localhost] [::1] [User Notice(1024): PDOException Object
+(
+    [message:protected] => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(9, 'Bài 1. Sự đồng biến, nghich biến của hàm số', 1, 16700004...' at line 10
+    [string:Exception:private] => 
+    [code:protected] => 42000
+    [file:protected] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php
+    [line:protected] => 526
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php
+                    [line] => 526
+                    [function] => query
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => INSERT INTO `nv4_headbook_lessons` (`lesson_id`, `lesson_name`, `status`, `add_time`, `update_time`) VALUES
+(1,  'Đọc văn. KHÁI QUÁT VĂN HỌC VIỆT NAM  TỪ CÁCH MẠNG THÁNG TÁM NĂM 1945 ĐẾN HẾT THẾ KỈ XX', 1, 1670000400, 1670000400),
+(2,  'Làm văn. NGHỊ LUẬN VỀ MỘT TƯ TƯỞNG, ĐẠO LÍ', 1, 1670000400, 1670000400),
+(3,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP - HỒ CHÍ MINH', 1, 1670000400, 1670000400),
+(4,  'Tiếng Việt. GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT', 1, 1670000400, 1670000400),
+(5,  'Làm văn. BÀI LÀM VĂN SỐ 1 (NGHỊ LUẬN XÃ HỘI)', 1, 1670000400, 1670000400),
+(6,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP (Hồ Chí Minh) (Phần 2. TÁC PHẨM)', 1, 1670000400, 1670000400),
+(7,  'Tiếng Việt.  GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT (tiếp)', 1, 1670000400, 1670000400),
+(8, 'Đọc văn.  NGUYỄN ĐÌNH CHIỂU, NGÔI SAO SÁNG TRONG VĂN NGHỆ CỦA DÂN TỘC', 1, 1670000400, 1670000400);    
+(9, 'Bài 1. Sự đồng biến, nghich biến của hàm số', 1, 1670000400, 1670000400);    
+(10, 'Bài 2. Cực trị của hàm số', 1, 1670000400, 1670000400);    
+(11, 'Bài 3. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số', 1, 1670000400, 1670000400);    
+(12, 'Bài 4. Đường tiệm cận', 1, 1670000400, 1670000400);    
+(13, 'Bài 5. Khảo sát sự biến thiên và vẽ đồ thị của hàm số', 1, 1670000400, 1670000400)
+                            [1] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\functions.php
+                    [line] => 192
+                    [function] => query
+                    [class] => NukeViet\Core\Database
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => INSERT INTO `nv4_headbook_lessons` (`lesson_id`, `lesson_name`, `status`, `add_time`, `update_time`) VALUES
+(1,  'Đọc văn. KHÁI QUÁT VĂN HỌC VIỆT NAM  TỪ CÁCH MẠNG THÁNG TÁM NĂM 1945 ĐẾN HẾT THẾ KỈ XX', 1, 1670000400, 1670000400),
+(2,  'Làm văn. NGHỊ LUẬN VỀ MỘT TƯ TƯỞNG, ĐẠO LÍ', 1, 1670000400, 1670000400),
+(3,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP - HỒ CHÍ MINH', 1, 1670000400, 1670000400),
+(4,  'Tiếng Việt. GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT', 1, 1670000400, 1670000400),
+(5,  'Làm văn. BÀI LÀM VĂN SỐ 1 (NGHỊ LUẬN XÃ HỘI)', 1, 1670000400, 1670000400),
+(6,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP (Hồ Chí Minh) (Phần 2. TÁC PHẨM)', 1, 1670000400, 1670000400),
+(7,  'Tiếng Việt.  GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT (tiếp)', 1, 1670000400, 1670000400),
+(8, 'Đọc văn.  NGUYỄN ĐÌNH CHIỂU, NGÔI SAO SÁNG TRONG VĂN NGHỆ CỦA DÂN TỘC', 1, 1670000400, 1670000400);    
+(9, 'Bài 1. Sự đồng biến, nghich biến của hàm số', 1, 1670000400, 1670000400);    
+(10, 'Bài 2. Cực trị của hàm số', 1, 1670000400, 1670000400);    
+(11, 'Bài 3. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số', 1, 1670000400, 1670000400);    
+(12, 'Bài 4. Đường tiệm cận', 1, 1670000400, 1670000400);    
+(13, 'Bài 5. Khảo sát sự biến thiên và vẽ đồ thị của hàm số', 1, 1670000400, 1670000400)
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\setup.php
+                    [line] => 79
+                    [function] => nv_setup_data_module
+                    [args] => Array
+                        (
+                            [0] => vi
+                            [1] => headbook
+                            [2] => 0
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\index.php
+                    [line] => 182
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\setup.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 42000
+            [1] => 1064
+            [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(9, 'Bài 1. Sự đồng biến, nghich biến của hàm số', 1, 16700004...' at line 10
+        )
+
+)
+] [FILE: /admin/modules/functions.php] [LINE: 194] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 79    FILE: /admin/modules/setup.php
+#3  LINE: 194   FILE: /admin/modules/functions.php
+
+[Wed, 07 Dec 2022 10:55:12 +0700] [localhost] [::1] [Run-time notices(8192): http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated] [FILE: /vendor/vinades/nukeviet/Http/Http.php] [LINE: 215] [TRACE:]
+#1  LINE: 26    FILE: /index.php
+#2  LINE: 376   FILE: /includes/mainfile.php
+#3  LINE: 77    FILE: /includes/core/cronjobs.php
+#4  LINE: 34    FILE: /includes/cronjobs/check_version.php
+#5  LINE: 284   FILE: /includes/core/admin_functions.php
+#6  LINE: 733   FILE: /vendor/vinades/nukeviet/Http/Http.php
+#7  LINE: 215   FILE: /vendor/vinades/nukeviet/Http/Http.php
+
+[Wed, 07 Dec 2022 14:39:59 +0700] [localhost] [::1] [Run-time notices(8192): Implicit conversion from float 5897750.000000001 to int loses precision] [FILE: /vendor/vinades/nukeviet/Files/Upload.php] [LINE: 156] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 63    FILE: /admin/upload/upload.php
+#3  LINE: 156   FILE: /vendor/vinades/nukeviet/Files/Upload.php
+
+[Wed, 07 Dec 2022 14:39:59 +0700] [localhost] [::1] [Warning(2): exif_read_data(logo-cmyk-01.png): File not supported] [FILE: /vendor/vinades/nukeviet/Files/Upload.php] [LINE: 1122] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 71    FILE: /admin/upload/upload.php
+#3  LINE: 1122  FILE: /vendor/vinades/nukeviet/Files/Upload.php
+
+[Wed, 07 Dec 2022 14:46:00 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quanlysodaubai.nv4_vi_music_config' doesn't exist in C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php:526
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php(526): PDO->query('SELECT config_n...', NULL)
+#1 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Cache\Files.php(203): NukeViet\Core\Database->query('SELECT config_n...')
+#2 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\modules\music\functions.php(20): NukeViet\Cache\Files->db('SELECT config_n...', '', 'music')
+#3 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\index.php(344): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 526]
+[Wed, 07 Dec 2022 15:00:32 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 81] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Wed, 07 Dec 2022 15:00:32 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 82] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Wed, 07 Dec 2022 15:31:59 +0700] [localhost] [::1] [Warning(2): Undefined array key "column"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 187] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 15:31:59 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 192] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 15:33:04 +0700] [localhost] [::1] [Warning(2): Undefined array key "status"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 931] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 15:33:04 +0700] [localhost] [::1] [Warning(2): Undefined array key "status"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 934] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 15:33:04 +0700] [localhost] [::1] [Warning(2): Undefined array key "status"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 1183] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 19:01:02 +0700] [localhost] [::1] [Warning(2): file_get_contents(C:/xampp/htdocs/nukeviet4.5.02setup/nukeviet/themes//modules/class\main.tpl): Failed to open stream: No such file or directory] [FILE: /includes/xtemplate.class.php] [LINE: 1333] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 190   FILE: /modules/class/admin/main.php
+#3  LINE: 395   FILE: /includes/xtemplate.class.php
+#4  LINE: 506   FILE: /includes/xtemplate.class.php
+#5  LINE: 537   FILE: /includes/xtemplate.class.php
+#6  LINE: 1365  FILE: /includes/xtemplate.class.php
+#7  LINE: 1333  FILE: /includes/xtemplate.class.php
+
+[Wed, 07 Dec 2022 19:12:38 +0700] [localhost] [::1] [Warning(2): rmdir(C:/xampp/htdocs/nukeviet4.5.02setup/nukeviet/data/tmp/nv4_module_class_cd25b495415121d9252294a29d9f9070/themes/admin_default/images): Directory not empty] [FILE: /includes/core/filesystem_functions.php] [LINE: 519] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+#2  LINE: 647   FILE: /modules/nvtools/funcs/main.php
+#3  LINE: 511   FILE: /includes/core/filesystem_functions.php
+#4  LINE: 511   FILE: /includes/core/filesystem_functions.php
+#5  LINE: 511   FILE: /includes/core/filesystem_functions.php
+#6  LINE: 519   FILE: /includes/core/filesystem_functions.php
+
+[Wed, 07 Dec 2022 19:44:40 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/headbook/funcs/detail.php] [LINE: 135] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+

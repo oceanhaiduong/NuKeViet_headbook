@@ -1,0 +1,119 @@
+[Mon, 28 Nov 2022 16:59:13 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 81] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Mon, 28 Nov 2022 16:59:13 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 82] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Mon, 28 Nov 2022 17:04:24 +0700] [localhost] [::1] [Warning(2): Undefined array key "column"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 187] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Mon, 28 Nov 2022 17:04:24 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 192] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "teacher"] [FILE: /modules/headbook/admin.menu.php] [LINE: 18] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "times"] [FILE: /modules/headbook/admin.menu.php] [LINE: 19] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "class"] [FILE: /modules/headbook/admin.menu.php] [LINE: 20] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "subjects"] [FILE: /modules/headbook/admin.menu.php] [LINE: 21] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "lessons"] [FILE: /modules/headbook/admin.menu.php] [LINE: 22] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "distribution"] [FILE: /modules/headbook/admin.menu.php] [LINE: 23] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "year"] [FILE: /modules/headbook/admin.menu.php] [LINE: 24] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "week"] [FILE: /modules/headbook/admin.menu.php] [LINE: 25] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "contents"] [FILE: /modules/headbook/admin.menu.php] [LINE: 26] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "summary"] [FILE: /modules/headbook/admin.menu.php] [LINE: 27] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "setting"] [FILE: /modules/headbook/admin.menu.php] [LINE: 28] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "song_add"] [FILE: /modules/music/admin.menu.php] [LINE: 16] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "singer_list"] [FILE: /modules/music/admin.menu.php] [LINE: 17] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "singer_add"] [FILE: /modules/music/admin.menu.php] [LINE: 18] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:19 +0700] [localhost] [::1] [Warning(2): Undefined array key "cat_manager"] [FILE: /modules/music/admin.menu.php] [LINE: 19] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 146   FILE: /admin/siteinfo/main.php
+#3  LINE: 296   FILE: /themes/admin_default/theme.php
+#4  LINE: 101   FILE: /themes/admin_default/theme.php
+
+[Mon, 28 Nov 2022 20:04:24 +0700] [localhost] [::1] [Warning(2): Undefined array key "main"] [FILE: /modules/headbook/admin/main.php] [LINE: 14] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Mon, 28 Nov 2022 20:04:39 +0700] [localhost] [::1] [Warning(2): Undefined array key "subjects"] [FILE: /modules/headbook/admin/subjects.php] [LINE: 14] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Tue, 29 Nov 2022 01:36:29 +0700] [localhost] [::1] [Warning(2): Undefined array key "Hồ Anh tuấn"] [FILE: /modules/headbook/admin/teacher.php] [LINE: 192] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Tue, 29 Nov 2022 01:42:14 +0700] [localhost] [::1] [Warning(2): Undefined array key "Hồ Anh tuấn"] [FILE: /modules/headbook/admin/teacher.php] [LINE: 203] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Tue, 29 Nov 2022 01:42:55 +0700] [localhost] [::1] [Warning(2): Undefined array key "Hồ Anh tuấn"] [FILE: /modules/headbook/admin/teacher.php] [LINE: 204] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+

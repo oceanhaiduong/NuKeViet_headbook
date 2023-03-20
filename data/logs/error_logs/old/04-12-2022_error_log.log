@@ -1,0 +1,175 @@
+[Sun, 04 Dec 2022 08:28:46 +0700] [localhost] [::1] [Warning(2): Undefined array key "column"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 187] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 08:28:46 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 192] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 08:29:49 +0700] [localhost] [::1] [Warning(2): Undefined array key "times_id"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 931] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 08:29:49 +0700] [localhost] [::1] [Warning(2): Undefined array key "times_id"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 934] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 08:29:49 +0700] [localhost] [::1] [Warning(2): Undefined array key "times_id"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 1059] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 08:29:49 +0700] [localhost] [::1] [Warning(2): Undefined array key "times_id"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 1060] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 08:29:49 +0700] [localhost] [::1] [Warning(2): Undefined array key "times_id"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 1061] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 08:29:49 +0700] [localhost] [::1] [Warning(2): Undefined array key "times_id"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 1183] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 08:32:20 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' FROM' at line 1 in C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php:526
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php(526): PDO->query('SELECT , FROM ', NULL)
+#1 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\modules\headbook\admin\distribution.php(91): NukeViet\Core\Database->query('SELECT , FROM ')
+#2 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\index.php(182): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 526]
+[Sun, 04 Dec 2022 08:48:14 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/headbook/admin/distribution.php] [LINE: 237] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Sun, 04 Dec 2022 15:24:18 +0700] [localhost] [127.0.0.1] [User Notice(1024): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 94] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 276   FILE: /includes/mainfile.php
+#3  LINE: 94    FILE: /vendor/vinades/nukeviet/Core/Database.php
+
+[Sun, 04 Dec 2022 15:24:18 +0700] [localhost] [127.0.0.1] [User Error(256): Sorry! Could not connect to data server] [FILE: /includes/mainfile.php] [LINE: 281] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 281   FILE: /includes/mainfile.php
+
+[Sun, 04 Dec 2022 15:35:42 +0700] [localhost] [::1] [Warning(2): Undefined array key "teacher_id"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 697] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 16:10:21 +0700] [localhost] [::1] [Warning(2): Undefined variable $q] [FILE: /modules/headbook/admin/main.php] [LINE: 31] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Sun, 04 Dec 2022 16:10:21 +0700] [localhost] [::1] [Warning(2): Undefined variable $show_view] [FILE: /modules/headbook/admin/main.php] [LINE: 32] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Sun, 04 Dec 2022 17:11:45 +0700] [localhost] [::1] [User Notice(1024): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'grade_id' in 'field list'] [FILE: /modules/headbook/admin/contents.php] [LINE: 101] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 101   FILE: /modules/headbook/admin/contents.php
+
+[Sun, 04 Dec 2022 17:41:36 +0700] [localhost] [::1] [User Notice(1024): PDOException Object
+(
+    [message:protected] => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order varchar(200) NOT NULL DEFAULT '' COMMENT 'Thứ',
+  session tinyint(1)...' at line 5
+    [string:Exception:private] => 
+    [code:protected] => 42000
+    [file:protected] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php
+    [line:protected] => 526
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php
+                    [line] => 526
+                    [function] => query
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => CREATE TABLE nv4_headbook_contents (
+  content_id int(11) NOT NULL AUTO_INCREMENT COMMENT 'Mã nội dung',
+  headbook_id smallint(4) NOT NULL COMMENT 'Mã sổ đầu bài',
+  week_id smallint(4) NOT NULL COMMENT 'Mã tuần',
+  order varchar(200) NOT NULL DEFAULT '' COMMENT 'Thứ',
+  session tinyint(1) NOT NULL DEFAULT 1 COMMENT 'Buổi',
+  times smallint(4) NOT NULL COMMENT 'STT Tiết',
+  subject_id smallint(4) NOT NULL COMMENT 'Mã môn học',
+  times_id tinyint(4) NOT NULL COMMENT 'Mã tiết',
+  lesson_id smallint(4) NOT NULL COMMENT 'Mã bài học',
+  comment varchar(200) NOT NULL DEFAULT '' COMMENT 'Nhận xét',
+  point smallint(4) NOT NULL COMMENT 'Điểm',
+  teacher_id smallint(4) NOT NULL COMMENT 'Mã giáo viên',
+  PRIMARY KEY (content_id)
+) ENGINE=MyISAM;
+                            [1] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\functions.php
+                    [line] => 192
+                    [function] => query
+                    [class] => NukeViet\Core\Database
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => CREATE TABLE nv4_headbook_contents (
+  content_id int(11) NOT NULL AUTO_INCREMENT COMMENT 'Mã nội dung',
+  headbook_id smallint(4) NOT NULL COMMENT 'Mã sổ đầu bài',
+  week_id smallint(4) NOT NULL COMMENT 'Mã tuần',
+  order varchar(200) NOT NULL DEFAULT '' COMMENT 'Thứ',
+  session tinyint(1) NOT NULL DEFAULT 1 COMMENT 'Buổi',
+  times smallint(4) NOT NULL COMMENT 'STT Tiết',
+  subject_id smallint(4) NOT NULL COMMENT 'Mã môn học',
+  times_id tinyint(4) NOT NULL COMMENT 'Mã tiết',
+  lesson_id smallint(4) NOT NULL COMMENT 'Mã bài học',
+  comment varchar(200) NOT NULL DEFAULT '' COMMENT 'Nhận xét',
+  point smallint(4) NOT NULL COMMENT 'Điểm',
+  teacher_id smallint(4) NOT NULL COMMENT 'Mã giáo viên',
+  PRIMARY KEY (content_id)
+) ENGINE=MyISAM;
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\setup.php
+                    [line] => 79
+                    [function] => nv_setup_data_module
+                    [args] => Array
+                        (
+                            [0] => vi
+                            [1] => headbook
+                            [2] => 0
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\index.php
+                    [line] => 182
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\setup.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 42000
+            [1] => 1064
+            [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order varchar(200) NOT NULL DEFAULT '' COMMENT 'Thứ',
+  session tinyint(1)...' at line 5
+        )
+
+)
+] [FILE: /admin/modules/functions.php] [LINE: 194] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 79    FILE: /admin/modules/setup.php
+#3  LINE: 194   FILE: /admin/modules/functions.php
+
+[Sun, 04 Dec 2022 17:48:15 +0700] [localhost] [::1] [Warning(2): Undefined array key "headbook"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 578] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sun, 04 Dec 2022 18:26:30 +0700] [localhost] [::1] [Run-time notices(8192): http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated] [FILE: /vendor/vinades/nukeviet/Http/Http.php] [LINE: 215] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 60    FILE: /admin/extensions/main.php
+#3  LINE: 733   FILE: /vendor/vinades/nukeviet/Http/Http.php
+#4  LINE: 215   FILE: /vendor/vinades/nukeviet/Http/Http.php
+

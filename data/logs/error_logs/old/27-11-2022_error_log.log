@@ -1,0 +1,135 @@
+[Sun, 27 Nov 2022 16:00:13 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 81] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 16:00:13 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 82] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 16:16:17 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 235] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 16:16:17 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 239] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 16:20:02 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 243] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 23:59:20 +0700] [localhost] [::1] [User Notice(1024): PDOException Object
+(
+    [message:protected] => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(department_id)
+) ENGINE=MyISAM' at line 7
+    [string:Exception:private] => 
+    [code:protected] => 42000
+    [file:protected] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php
+    [line:protected] => 526
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php
+                    [line] => 526
+                    [function] => query
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => CREATE TABLE nv4_headbook_department (
+  department_id smallint(4) NOT NULL COMMENT 'Mã phòng đào tạo',
+  department_name varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên phòng đào tạo',
+  organizations_id smallint(4) NOT NULL COMMENT 'Mã sở giáo dục',
+  add_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian thêm',
+  update_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian cập nhật'
+  PRIMARY KEY (department_id)
+) ENGINE=MyISAM;
+                            [1] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\functions.php
+                    [line] => 192
+                    [function] => query
+                    [class] => NukeViet\Core\Database
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => CREATE TABLE nv4_headbook_department (
+  department_id smallint(4) NOT NULL COMMENT 'Mã phòng đào tạo',
+  department_name varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên phòng đào tạo',
+  organizations_id smallint(4) NOT NULL COMMENT 'Mã sở giáo dục',
+  add_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian thêm',
+  update_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian cập nhật'
+  PRIMARY KEY (department_id)
+) ENGINE=MyISAM;
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\setup.php
+                    [line] => 79
+                    [function] => nv_setup_data_module
+                    [args] => Array
+                        (
+                            [0] => vi
+                            [1] => headbook
+                            [2] => 0
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\index.php
+                    [line] => 182
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\setup.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 42000
+            [1] => 1064
+            [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(department_id)
+) ENGINE=MyISAM' at line 7
+        )
+
+)
+] [FILE: /admin/modules/functions.php] [LINE: 194] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 79    FILE: /admin/modules/setup.php
+#3  LINE: 194   FILE: /admin/modules/functions.php
+
+[Mon, 28 Nov 2022 00:13:33 +0700] [localhost] [::1] [Warning(2): Undefined array key "column"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 187] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Mon, 28 Nov 2022 00:13:33 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 192] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Mon, 28 Nov 2022 00:18:49 +0700] [localhost] [::1] [User Notice(1024): SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1] [FILE: /modules/headbook/admin/department.php] [LINE: 84] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 84    FILE: /modules/headbook/admin/department.php
+
+[Mon, 28 Nov 2022 00:55:15 +0700] [localhost] [::1] [Run-time notices(8192): http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated] [FILE: /vendor/vinades/nukeviet/Http/Http.php] [LINE: 215] [TRACE:]
+#1  LINE: 26    FILE: /index.php
+#2  LINE: 376   FILE: /includes/mainfile.php
+#3  LINE: 77    FILE: /includes/core/cronjobs.php
+#4  LINE: 34    FILE: /includes/cronjobs/check_version.php
+#5  LINE: 284   FILE: /includes/core/admin_functions.php
+#6  LINE: 733   FILE: /vendor/vinades/nukeviet/Http/Http.php
+#7  LINE: 215   FILE: /vendor/vinades/nukeviet/Http/Http.php
+
